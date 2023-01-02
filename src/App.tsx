@@ -194,10 +194,10 @@ class App extends Component<{}, AppStateType> {
     if (this.state.currPage === 'home') {
       return this.homePage();
     }
-    else if(this.state.currPage == 'todos') {
+    else if(this.state.currPage === 'todos') {
       return this.todosPage();
     }
-    else if(this.state.currPage == 'converter') {
+    else if(this.state.currPage === 'converter') {
       return this.converterPage();
     }
     return this.state.currPage;

@@ -10,6 +10,7 @@ body {
 }
 
 #welcome {
+    margin-top: 10px;
     color: darkgreen;
     font-size: 75px;
     margin-bottom: 0;
@@ -23,7 +24,7 @@ p {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 button {
