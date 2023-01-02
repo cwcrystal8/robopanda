@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/robopanda/static/css/main.5b9253bb.css",
+    "main.js": "/robopanda/static/js/main.5d05874a.js",
+    "index.html": "/robopanda/index.html",
+    "main.5b9253bb.css.map": "/robopanda/static/css/main.5b9253bb.css.map",
+    "main.5d05874a.js.map": "/robopanda/static/js/main.5d05874a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b9253bb.css",
+    "static/js/main.5d05874a.js"
+  ]
+}
