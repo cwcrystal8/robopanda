@@ -45,7 +45,7 @@ class App extends Component<{}, AppStateType> {
           <p id='welcome'>Welcome!</p>
           <p>Want to earn points from Nintendo and save energy at the same time?</p>
 
-          <img src='energy.png' alt='energy saving logo'/>
+          <img src='logo.png' alt='energy saving logo'/>
 
           <p>This app will help you achieve and reach your energy saving goals!</p>
 
