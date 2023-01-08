@@ -45,7 +45,7 @@ class App extends Component<{}, AppStateType> {
           <p id='welcome'>Welcome!</p>
           <p>Want to earn points from Nintendo and save energy at the same time?</p>
 
-          <img src='logo.png' alt='energy saving logo'/>
+          <img src='logo.png' alt='energy saving logo' id='logo'/>
 
           <p>This app will help you achieve and reach your energy saving goals!</p>
 
@@ -181,6 +181,7 @@ class App extends Component<{}, AppStateType> {
             Next &#8680;
           </button>
           <button
+              id = 'converter-next-button'
               onClick = {() => {this.setState({gameHours: 0, gameMinutes: 0, currPage: 'todos'})}}
             >
             &#8678; Back

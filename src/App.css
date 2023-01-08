@@ -9,6 +9,10 @@ body {
     color: grey
 }
 
+#logo {
+    width: 150px;
+}
+
 #welcome {
     margin-top: 10px;
     color: darkgreen;
@@ -99,4 +103,8 @@ button:hover {
 #converter-money {
     font-size: 50px;
     color: darkgreen;
+}
+
+#converter-next-button {
+    display: none;
 }
