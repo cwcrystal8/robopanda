@@ -176,12 +176,12 @@ class App extends Component<{}, AppStateType> {
 
         <div className='button-div'>
           <button className="next-button"
-            onClick = {() => {this.setState({currPage: 'converter'})}}
+            onClick = {() => {this.setState({gameHours: 0, gameMinutes: 0, currPage: 'converter'})}}
           >
             Next &#8680;
           </button>
           <button
-              onClick = {() => {this.setState({currPage: 'todos'})}}
+              onClick = {() => {this.setState({gameHours: 0, gameMinutes: 0, currPage: 'todos'})}}
             >
             &#8678; Back
           </button>
