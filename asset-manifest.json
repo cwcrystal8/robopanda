@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/robopanda/static/css/main.53b7562d.css",
-    "main.js": "/robopanda/static/js/main.cb48587c.js",
+    "main.css": "/robopanda/static/css/main.52f0b7bb.css",
+    "main.js": "/robopanda/static/js/main.bc669b1a.js",
     "index.html": "/robopanda/index.html",
-    "main.53b7562d.css.map": "/robopanda/static/css/main.53b7562d.css.map",
-    "main.cb48587c.js.map": "/robopanda/static/js/main.cb48587c.js.map"
+    "main.52f0b7bb.css.map": "/robopanda/static/css/main.52f0b7bb.css.map",
+    "main.bc669b1a.js.map": "/robopanda/static/js/main.bc669b1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.53b7562d.css",
-    "static/js/main.cb48587c.js"
+    "static/css/main.52f0b7bb.css",
+    "static/js/main.bc669b1a.js"
   ]
 }
