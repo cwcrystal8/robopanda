@@ -6,7 +6,9 @@ body {
 
 .main {
     text-align: center;
-    color: grey
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #welcome {
