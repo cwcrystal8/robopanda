@@ -45,7 +45,7 @@ class App extends Component<{}, AppStateType> {
           <p id='welcome'>Welcome!</p>
           <p>Want to earn points from Nintendo and save energy at the same time?</p>
 
-          <img src='logo.png' alt='energy saving logo' id='logo'/>
+          <img src='logo.png' alt='energy saving logo' width='360px' height='360px'/>
 
           <p>This app will help you achieve and reach your energy saving goals!</p>
 
@@ -54,6 +54,7 @@ class App extends Component<{}, AppStateType> {
 
         <div className='button-div'>
           <button
+            id = 'home-next-button'
             onClick = {() => {this.setState({currPage: 'todos'})}}
           >
             Next &#8680;
@@ -124,14 +125,14 @@ class App extends Component<{}, AppStateType> {
 
         <div className='button-div'>
           <button
-            onClick = {() => {this.setState({currPage: 'converter'})}}
-          >
-            Next &#8680;
-          </button>
-          <button
             onClick = {() => {this.setState({currPage: 'home'})}}
           >
             &#8678; Back
+          </button>
+          <button
+            onClick = {() => {this.setState({currPage: 'converter'})}}
+          >
+            Next &#8680;
           </button>
           
         </div>
@@ -175,17 +176,18 @@ class App extends Component<{}, AppStateType> {
         </div>
 
         <div className='button-div'>
-          <button className="next-button"
-            onClick = {() => {this.setState({gameHours: 0, gameMinutes: 0, currPage: 'converter'})}}
-          >
-            Next &#8680;
-          </button>
           <button
-              id = 'converter-next-button'
+              id = 'converter-back-button'
               onClick = {() => {this.setState({gameHours: 0, gameMinutes: 0, currPage: 'todos'})}}
             >
             &#8678; Back
           </button>
+          {/* <button className="next-button"
+            id = 'converter-next-button'
+            onClick = {() => {this.setState({gameHours: 0, gameMinutes: 0, currPage: 'converter'})}}
+          >
+            Next &#8680;
+          </button> */}
         </div>
       </div>
     );

@@ -9,10 +9,6 @@ body {
     color: grey
 }
 
-#logo {
-    width: 150px;
-}
-
 #welcome {
     margin-top: 10px;
     color: darkgreen;
@@ -27,7 +23,6 @@ p {
 .button-div {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
     margin-bottom: 40px;
 }
 
@@ -47,6 +42,10 @@ button:hover {
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+#home-next-button {
+    margin-left: auto;
 }
 
 /* ---------------- TO DO PAGE ------------------- */
